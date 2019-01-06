@@ -1,0 +1,15 @@
+
+.element {
+    width: 300px;
+    border-color: red; 
+}
+
+.element:hover {
+    border-color: green;
+}
+
+@media screen and (max-width: 350px) {
+    .element {
+        width: 150px;
+    }
+  }
